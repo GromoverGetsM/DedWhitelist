@@ -2,3 +2,34 @@ name: DedWhitelist
 version: '${project.version}'
 main: org.mineproject.dedwhitelist.DedWhitelist
 api-version: '1.20'
+commands:
+  discord:
+    description: none
+    usage: /<command>
+    permission: "dedmclibs.discord"
+  pinger:
+    description: "Оповещает о малой прочности инструмента"
+    usage: "§c[Pinger@DedWhitelist] Использование: /pinger on/off"
+  deathlocator:
+    description: "Сохраняет мир и место смерти"
+    usage: "§c[DeathLocator@DedWhitelist] Использование: /deathlocator on/off"
+  netherroof:
+    description: none
+    usage: /<command>
+    permission: "dedmclibs.netherroof"
+  end:
+    description: none
+    usage: /<command>
+    permission: "dedmclibs.end"
+  dedwl:
+    description: "Main plugin command"
+    usage: /<command>
+    permission: "dedmclibs.reload"
+  fem:
+    description: none
+    usage: /<command> <user>
+    permission: "dedmclibs.fem"
+  svl:
+    description: none
+    usage: /<command> <user>
+    permission: "dedmclibs.svl"

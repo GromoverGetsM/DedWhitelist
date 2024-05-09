@@ -2,3 +2,12 @@ settings:
   user-discord-webhook-url: ""
   admin-discord-webhook-url: ""
   crash-if-no-url: true
+  discord-sysadmin-connector: false
+  nether-roof-enabled: true
+  end-enabled: false
+
+players:
+
+deadplayerslog:
+
+items:
