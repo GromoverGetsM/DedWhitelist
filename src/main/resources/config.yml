@@ -1,0 +1,4 @@
+settings:
+  user-discord-webhook-url: ""
+  admin-discord-webhook-url: ""
+  crash-if-no-url: true

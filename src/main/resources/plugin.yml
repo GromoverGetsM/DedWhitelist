@@ -1,0 +1,4 @@
+name: DedWhitelist
+version: '${project.version}'
+main: org.mineproject.dedwhitelist.DedWhitelist
+api-version: '1.20'
